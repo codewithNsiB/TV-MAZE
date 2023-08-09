@@ -1,0 +1,39 @@
+@import url("https://fonts.cdnfonts.com/css/caros");
+
+* {
+  text-decoration: none !important;
+  font-family: "Caros", sans-serif;
+}
+
+.bgColorA {
+  background-color: hsl(258, 98%, 36%);
+}
+.bgColorB {
+  background-color: hsl(258, 93%, 23%);
+}
+
+.textColor {
+  color: hsl(258, 98%, 36%);
+}
+
+.imgBox{
+  height: 300px;
+}
+
+.tvcard{
+  height: 300px;
+  width: 100%
+}
+
+@media(min-width: 992px) {
+  .imgBox {
+    height: 600px;
+  }
+
+  .tvcard:hover{
+    background-color: black;
+    opacity: 0.7;
+    transition: 0.3s ease-in-out;
+    border: 2px solid black;
+  }
+}
